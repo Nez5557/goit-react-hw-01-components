@@ -13,7 +13,7 @@ function friendOnline(status) {
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <li className={styles.item}>
-      <span className={styles.status} styles={{ color: friendOnline(isOnLine) }} >
+      <span className={styles.status} styles={{ color: friendOnline(isOnline) }} >
         {" "}
         •
       </span>

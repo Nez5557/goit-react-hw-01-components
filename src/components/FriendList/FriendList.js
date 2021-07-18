@@ -15,12 +15,10 @@ const FriendList = ({ friends }) => (
   </ul>
 );
 
-FriendList.propTypes = {
-  friends: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-    })
-  ).isRequired,
+FriendListItem.propTypes = {
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOneLine: PropTypes.string.isRequired,
 };
 
 export default FriendList;
