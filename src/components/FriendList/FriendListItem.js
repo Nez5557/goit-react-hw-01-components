@@ -1,5 +1,3 @@
-import defaultImage from "../default.jpg";
-import PropTypes from "prop-types";
 import styles from "./FriendList.module.css";
 
 function friendOnline(status) {
